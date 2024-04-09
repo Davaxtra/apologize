@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "arial";
+}
+
+img {
+  height: 400px;
+  width: auto;
+  padding: 10px;
+  transition: transform 0.5s ease;
+}
+
+#emoteImg:hover {
+  transform: scale(1.1); /* Perbesar gambar saat dihover */
+}
+
+.text {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.answerButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "arial";
+  margin-bottom: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+#yesButton {
+  color: #fff;
+  background-color: #198754;
+  border: 2px solid #198754;
+  box-shadow: 1px 1px 2px #33716f;
+}
+
+#yesButton:hover {
+  background-color: #146c43;
+  border: 2px solid #146c43;
+  box-shadow: 1px 1px 2px #33716f;
+}
+
+#noButton {
+  color: #fff;
+  background-color: #dc3545;
+  border: 2px solid #dc3545;
+  box-shadow: 1px 1px 2px #c62f3e;
+}
+
+#noButton:hover {
+  color: #fff;
+  background-color: #b02a37;
+  border: 2px solid #b02a37;
+  box-shadow: 1px 1px 2px #9e2531;
+}
+
+/* Media query untuk perangkat mobile */
+@media only screen and (max-width: 600px) {
+  .text {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  img {
+    height: 300px;
+    width: auto;
+    padding: 10px;
+  }
+}

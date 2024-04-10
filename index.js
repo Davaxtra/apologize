@@ -3,24 +3,22 @@ function stopBackgroundSoundAndPlayBum() {
     audio.src = "audio/bum.mp3"; // Mengatur sumber audio ke "bum.mp3"
     audio.removeAttribute("loop");
     audio.stop(); // Menghentikan backsound
-    audio.play(); // Memutar audio "bum"
+    audio.play();
 }
 
 var atasTexts = [
-    "<b>saya, selaku teman sebangku yg baik</b>",
-    "<b>kira kira</b>",
-    "<b>tenang kmu udah dimaafin kok seng</b>",
-    "<b>gak bakal</b>",
-    "<b>cih dasar</b>",
+    "<b>maaf ya</b>",
+    "<b>beneran</b>",
+    "<b>gak dimaafin</b>",
+    "<b>gak asik luwh</b>",
     "<b>MAAFIN</b>",
 ];
 
 var bawahTexts = [
-    "<b>minta maaf ya kalo ada salah</b>",
-    "<b>dimaafin gk</b>",
-    "<b>jd maafin jg ya</b>",
-    "<b>dimaafin nih?</b>",
-    "<b>jd lu gamau maafin gue</b>",
+    "<b>kemaren mah herey</b>",
+    "<b>maafan skrg mah</b>",
+    "<b>jg gpp si</b>",
+    "<b>memberi dislike</b>",
     "<b>ATAU GUE PUKUL</b>",
 ]
 
@@ -53,10 +51,9 @@ function changeText() {
 var imagePaths = [
     "img/mff.png",
     "img/saya.png",
-    "img/kirakira.png",
     "img/mff-1.png",
     "img/gimana.png",
-    "img/ngambek.png",
+    "img/dislike.png",
     "img/marahasli.png"
 ];
 
@@ -100,6 +97,6 @@ window.onload = function () {
 
     // Memeriksa apakah pengguna diarahkan dari halaman target
     if (referrer.includes(targetPage)) {
-        alert("wkwkwkw maaf seng");
+        alert("1 - 0 btw");
     }
 };

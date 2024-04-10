@@ -37,9 +37,8 @@ function changeText() {
     } else {
         // Stop updating atasText when reaching the last text
         atasText.innerHTML = atasTexts[currentAtasIndex];
-        stopBackgroundSoundAndPlayBum();
     }
-
+    
     // Update bawahText
     if (currentBawahIndex < bawahTexts.length - 1) {
         bawahText.innerHTML = bawahTexts[currentBawahIndex];
@@ -47,6 +46,7 @@ function changeText() {
     } else {
         // Stop updating bawahText when reaching the last text
         bawahText.innerHTML = bawahTexts[currentBawahIndex];
+        stopBackgroundSoundAndPlayBum();
     }
 }
 
